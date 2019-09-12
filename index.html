@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    
 
 </head>
 
@@ -19,7 +20,7 @@
     <header>
         <!-- this is the navigation section -->
 
-        <section>
+        
             <nav class="navbar navbar-default  navig">
                 <div class="navbar-header">
                     <button class="navbar-toggle" data-toggle="collapse" data-target="#exampleNav">
@@ -49,10 +50,15 @@
         <section class="navig">
             <div class="container">
                 <div class="row ">
-                    <div class="col-xs-3 col-xs-offset-4 Image col-md-4 col-md-offset-5 ">
-                        <img src="images/avatar.png" height="200px" />
+                    <div class="col-md-8">
+                            <h1 class="text-center" id="type"><span class="typing"></span></h1>
+
 
                     </div>
+                    <!-- <div class="col-xs-3 col-xs-offset-4 Image col-md-4 col-md-offset-5 ">
+                        <img src="images/avatar.png" height="200px" />
+
+                    </div> -->
 
                     <div class="col-xs-9 col-xs-offset-2">
                         <div class="well Well">
@@ -61,14 +67,14 @@
                             <p class="lead text-center"> HTML/CSS | Bootstrap | JavaScript | React | jQuery | Python |Django| MySQL</p>
 
                             <div class="row">
-                                <div class="col-xs-3 col-xs-offset-2">
-                                    <a><i class="fab fa-3x fa-linkedin-in"></i></a>
+                                <div class="col-xs-3 col-xs-offset-2" style="padding-left: 2px;">
+                                    <a  href="https://www.linkedin.com/in/prakash-kasula-199380169" target="_blank"><i class="fab fa-3x fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-xs-3 " style="padding-left: 2px;">
+                                    <a href="https://github.com/prakash8096"  target="_blank"><i class="fab fa-3x fa-github"></i></a>
                                 </div>
                                 <div class="col-xs-3 ">
-                                    <a><i class="fab fa-3x fa-github"></i></a>
-                                </div>
-                                <div class="col-xs-3 ">
-                                    <a href="https://www.linkedin.com/in/prakash-kasula-199380169" target="_blank"><i class="fab fa-3x fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/prak___4/" target="_blank"><i class="fab fa-3x fa-instagram"></i></a>
                                 </div>
                             </div>
 
@@ -81,14 +87,27 @@
 
 
             </div>
-        </section>
+        </section> 
     </header>
+    
+   
 
-
+     <script src="js/typed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script>
+
+    </script>
+      <script type="text/javascript">
+        var typed = new Typed(".typing", {
+  strings: ["Welcome to my Portfolio","Hi,My name is Prakash", "I'mFull stack web developer","I love to code"],
+   // Default value
+  typeSpeed:60,
+  backSpeed:60,
+  loop:true  
+
+});
     </script>
 </body>
 

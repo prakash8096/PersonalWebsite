@@ -51,7 +51,7 @@ border: linear-gradient(to left, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefo
 }
 .Well
 {
-    margin-bottom: 105px;
+    margin-bottom: 135px;
     
     
 }
@@ -102,14 +102,7 @@ border: linear-gradient(to left, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefo
     font-size: 48px;
    
 }
-.ProjectHeader
-{
-    background-color: #f5f8fa;
-    border: 1px solid silver;
-    padding: 20px;
-    margin-bottom: 40px;
-
-}
+ 
 .ProjectHeader h1
 {
 font-size: 60px;
@@ -128,6 +121,17 @@ font-size: 60px;
     font-size: 40px;
     
 }
+#type
+{
+    color:#ecf0f1;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 120px;
+    margin-top: 65px;
+    text-align: center;
+    margin-left: auto;
+
+}
+
 
 .Form
 {
@@ -182,6 +186,12 @@ label {
     background: linear-gradient(to left, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+.ProjectHeader {
+    background-color: #f5f8fa;
+    border: 1px solid silver;
+    padding: 20px;
+    margin-bottom: 40px;
+}
 .JosSide h1
 {
     
@@ -223,7 +233,9 @@ label {
 }
 .section2 h1
 {
-    font-size: 160px;
+    font-size: 130px;
+    margin-right: 0px;
+    padding-top: 20px;
     
 }
 .section2 p
@@ -231,8 +243,9 @@ label {
    padding-top: 65px;
    padding-bottom: 30px;
    font-weight: bold;
-   font-size: 27px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   font-size: 23px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*    margin-left: 20px;*/
    
 }
 #parasec2
@@ -241,6 +254,7 @@ label {
     margin-top: -76px;
     color: black;
     font-weight: normal;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -274,7 +288,7 @@ label {
 
 
 
-@media(max-width:600px){
+@media(max-width:350px){
     
     
       img{
@@ -316,10 +330,33 @@ label {
         .Well
 {
     margin-bottom: 80px;
+    padding: 12px;
+    
     
     
 }
-   
+#type
+{
+    color:#ecf0f1;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 65px;
+    text-align: center;
+    margin-left: auto;
+
+}
+   #noPros h1
+    {
+      font-size: 40px; 
+        padding-top: 40px;
+    }
+    
+    .particular
+    {
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    
   
     
     
